@@ -9,3 +9,5 @@ body
         input(type="password", id="password", name="password", required)
         div
         button(type="submit") Se connecter
+    if messages.error
+        p.text-red-500.mt-4= messages.error
