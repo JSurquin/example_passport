@@ -1,0 +1,11 @@
+body
+    h1 Connexion
+    form(action="/login", method="post")
+        div
+        label(for="username") Nom d'utilisateur:
+        input(type="text", id="username", name="username", required)
+        div
+        label(for="password") Mot de passe:
+        input(type="password", id="password", name="password", required)
+        div
+        button(type="submit") Se connecter
